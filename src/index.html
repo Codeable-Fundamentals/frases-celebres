@@ -8,6 +8,33 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>Frases Celebres</h1>
+  <main class="app">
+    <div class="quote">
+      <header class="quote__header">
+        <h1 class="quote__author" id="quote__author">George Bernard Shaw</h1>
+        <div class="quote__tags">
+          <span class="quote__tag" id="quote__tag__1">Famous Quotes</span>
+          <span class="quote__tag" id="quote__tag__2">Inspirational</span>
+        </div>
+      </header>
+      
+      <div class="quote__content">
+        <blockquote class="quote__text" id="quote-text">
+          "Learn from yesterday, live for today, hope for tomorrow."
+        </blockquote>
+      </div>
+      
+      <footer class="quote__actions">
+        <button class="button button--random" id="randomBtn">
+          <img src="assets/regroup.svg" alt="Random" class="button__icon">
+          Random
+        </button>
+        <button class="button button--share" id="shareBtn">
+          <img src="assets/link.svg" alt="Share" class="button__icon">
+          Share
+        </button>
+      </footer>
+    </div>
+  </main>
 </body>
 </html>
