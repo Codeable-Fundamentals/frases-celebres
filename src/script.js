@@ -1,8 +1,6 @@
-console.log("verificar que funciona!")
 const jsonInfo = fetch("https://raw.githubusercontent.com/devchallenges-io/curriculum/refs/heads/main/3-javascript/challenges/group_1/data/random-quotes.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log("Conexion realizada correctamente", data);
     const autor = document.getElementById("autor-card");
     const tag1 = document.getElementById("skill_card1");
     const tag2 = document.getElementById("skill_card2");
